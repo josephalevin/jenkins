@@ -64,7 +64,7 @@ THE SOFTWARE.
             <configuration>
               <fork>true</fork>
               <concurrency>${concurrency}</concurrency>
-              <argLine>-XX:MaxPermSize=192m -Xmx256m -Dfile.encoding=UTF-8</argLine>
+              <argLine>-Dfile.encoding=UTF-8</argLine>
               <systemProperties>
                 <property>
                   <!-- use AntClassLoader that supports predictable file handle release -->
@@ -152,7 +152,7 @@ THE SOFTWARE.
     <dependency>
       <groupId>org.mortbay.jetty</groupId>
       <artifactId>jetty</artifactId>
-      <version>6.1.11</version>
+      <version>6.1.26</version>
     </dependency>
     <dependency>
       <groupId>org.jvnet.hudson</groupId>
